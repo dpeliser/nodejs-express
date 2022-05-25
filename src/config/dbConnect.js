@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-mongoose.connect('mongodb+srv://dpeliser:Snapcaster21@nodejs-app-cluster.yxql2.mongodb.net/nodejs-app');
+mongoose.connect('mongodb+srv://<user>:<password>@nodejs-app-cluster.yxql2.mongodb.net/nodejs-app');
 
 const db = mongoose.connection;
 
